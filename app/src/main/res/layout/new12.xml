@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:text="2016-2017年度外研社公开赛（FLTRP OPEN）南京站比赛报告"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView5" />
+        <TextView
+            android:text="                                  —  南京站比赛战果  —
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="                                          冠军队伍：
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="                                  蓝菁菁（ 南京理工大学 ）
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="                                  杨凯闻（ 南京理工大学 ）
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="                                          最佳辩手：
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="                                  林子弋（浙江大学城市学院）
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="                                  马帅（海军航空工程学院）
+"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@mipmap/n2"
+            android:layout_width="400dp"
+            android:layout_height="400dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

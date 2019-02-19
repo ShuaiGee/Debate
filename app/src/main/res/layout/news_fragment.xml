@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@mipmap/bg"
+            android:layout_weight="0.06" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/transparent">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Imag1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/n1"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="  重磅公告|“撕辩” or “思辨”？除了奇葩说，我"
+                    />
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:text="  在辩论赛场上，我们一开始或许个个巧舌如簧、口若悬河、妙语连珠、滔滔不绝……然而，我们在“撕”得不亦乐乎之时，可能也是在作茧自缚，导致最后自陷泥淖、理屈词穷、无语凝噎，悻悻然而败北。But, why？
+
+"
+                    android:textSize="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Imag2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/n2"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/number2"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:text="  资讯速递|2016-2017年度外研社公开赛 "
+                    />
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:text="  2016年11月5日，外研社公开赛（FLTRP OPEN）南京站在江苏南京市南京林业大学举办完成。比赛战果及本站辩题公布如下，官方微信服务号“思辨精英平台”会后续推送点评文章，请参赛辩手、老师及思辨爱好者持续关注。"
+                    android:textSize="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Imag3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/n3"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/number3"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:text="  特别推荐|第二十届“外研社杯”华东地区赛期"
+                    />
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:text="  第二十届“外研社杯”辩论赛华东地区赛将于2017年4月21日-4月23日期间，在安徽省合肥市安徽大学（ 罄苑校区）举办。
+    华东地区赛参赛高校可查看以下交通、食宿指南，并合理安排本校代表队的交通住宿。
+"
+                    android:textSize="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Imag4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/n4"
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/number4"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:text="  辩论资讯|2015北京辩论公开赛BDO赛果公告"
+                    />
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:text="  12月4日-6日，第三届北京辩论公开赛（Beijing Debate Open）于中国石油大学（北京）顺利举行。BDO是石油大学创办的第一项常设于北京的民间辩论公开赛，本届BDO吸引了国内外72支参赛队，上百名裁判参与，是创造了BDO的最大规模。"
+                    android:textSize="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

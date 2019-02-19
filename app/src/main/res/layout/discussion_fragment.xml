@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="285dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:text="--- 今日话题 ---"
+                    android:gravity="center"
+                    android:background="@color/text_blue"
+                    android:textColor="@color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:textSize="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/gray">
+                </LinearLayout>
+                <TextView
+                    android:text="      辩论时哪些些技巧更为实用?"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="153dp"
+                    android:src="@mipmap/bl"
+                    android:maxHeight="150dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/gray">
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/Image2"
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/Image1"
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:id="@+id/Image3"
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray">
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="137dp">
+
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Imag2"
+                android:layout_width="100dp"
+                android:layout_height="88dp"
+                android:src="@mipmap/pic"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/number2"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:text="  标题什么的一点都不想"
+                    />
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="  对我来说，提升最大的是认识了很多朋友，从东北到北京到浙江到上海到西安到广东，从澳洲到新加坡到马来西亚到英国，这些辩手后来都成为了各行各业
+"
+                    android:textSize="13dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <ImageView
+                android:src="@mipmap/pl"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:src="@mipmap/zan1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="42dp"
+                android:layout_marginEnd="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+
+                android:src="@mipmap/zf"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray">
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="137dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:src="@mipmap/pic4"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20dp"
+                        android:text="  观武大辩论赛有感"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="  昨天去听了武大教练陈铭学长的辩论讲座，收益颇丰。 结束鼓掌时，听见旁边的同学轻轻说了句我一惊。是啊，已经一年了。 这一年我学到了什么"
+
+                        android:textSize="14dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/pl"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:src="@mipmap/zan1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="42dp"
+                android:layout_marginEnd="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+
+                android:src="@mipmap/zf"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray">
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="137dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="84dp"
+                    android:src="@mipmap/pic5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:text="  心里话"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="  当时，第一个学会的辩论概念叫断言。断言是指，在辩论场上，辩手说了「什么」，却没有说「为什么」。在奥瑞冈的体系里，赛场上使用没有论证的断言，是一件"
+                        android:textSize="14dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/pl"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:src="@mipmap/zan1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="42dp"
+                android:layout_marginEnd="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+
+                android:src="@mipmap/zf"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray">
+        </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

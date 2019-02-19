@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:text="2015北京辩论公开赛BDO赛果公告"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView5" />
+
+
+        <TextView
+                android:text="以下是本届BDO的赛果公告:"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+        <ImageView
+            android:src="@mipmap/wen"
+            android:layout_width="wrap_content"
+            android:layout_height="307dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

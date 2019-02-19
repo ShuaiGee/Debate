@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.geshuai.debate.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/transparent">
+
+       <!-- <TextView
+            android:id="@+id/txt_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/text_gray"
+            android:layout_alignParentBottom="true"/>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_deal"
+            android:gravity="center"
+            android:textColor="@drawable/tab_menu_deal_text"
+            android:text="资讯"/>
+
+        <TextView
+            android:id="@+id/debate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab_menu_poi"
+            android:textColor="@drawable/tab_menu_poi_text"
+            android:text="辩论"/>
+
+
+
+        <TextView
+            android:id="@+id/discussion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:textColor="@drawable/tab_menu_user_text"
+            android:drawableTop="@drawable/tab_menu_user"
+            android:text="讨论"/>
+
+
+        <TextView
+            android:id="@+id/person"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab_menu_more"
+            android:textColor="@drawable/tab_menu_more_text"
+            android:text="个人"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/text_gray"
+        android:layout_above="@id/tab_menu"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_title"
+        android:layout_above="@id/tab_menu"
+        android:background="@color/transparent">
+    </FrameLayout>
+
+
+</RelativeLayout>

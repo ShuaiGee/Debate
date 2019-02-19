@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:text="“撕辩” or “思辨”？除了奇葩说，我们去哪学辩论？"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:text="          在辩论赛场上，我们一开始或许个个巧舌如簧、口若悬河、妙语连珠、滔滔不绝……然而，我们在“撕”得不亦乐乎之时，可能也是在作茧自缚，导致最后自陷泥淖、理屈词穷、无语凝噎，悻悻然而败北。But, why？
+
+
+
+"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            />
+        <TextView
+            android:text="          这不是因为我们的语言水平不济，也不是因为我们的脑瓜不灵，当然，更不必怀疑人生！这或许仅仅因为我们只顾“撕辩”而忽视了“思辨”，只知奋起出击而忘了要攻守兼备。总之就是“撕”得没有章法，对辩论技巧的拿捏尚欠火候。Help me！"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+        <TextView
+            android:text="
+            为帮助各位辩手顺利进入第20届“外研社杯”全国大学生英语辩论赛总决赛，小U特别邀请外研社首批思辨教育功勋培训师、“外研社杯”全国大学生英语辩论赛资深评委——外交学院冉继军副教授、复旦大学何静老师以及四川外国语大学谢雅姝老师为我们解答辩论赛中的常见问题，快来认真学习一下吧！（此处应有掌声👏👏👏）"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="
+            制定模型对于辩论的成败至关重要，我们的困惑是到底如何才能建立一个最有利于本队或本方的模型，想请老师帮我们解答一下。
+       "
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="
+            价值类和政策类辩题在制定模型时略有不同。以价值类辩题为例，我们一般可围绕一个核心，分三步走。核心就是价值判断的标准（yardsticks）；三步分别为：认清现实状况（the status quo），选择本方立场（team stance），考虑原则和结果（principles &amp; consequences）。
+
+       "
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            />
+        <TextView
+            android:text="
+            拿到辩题之后就会和队友一起对辩题进行分析，但在分析时往往会顾此失彼或者抓不到重点，请问我们应该如何科学地分析辩题呢？
+       "
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="
+            辩题类型不同，分析模型也是不一样的。政策类辩题可以采用SQ-Cause-Cure-Cost模式，价值类辩题可以用Object-Standard-Application模式。
+       "
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.29" />
+
+        <TextView
+            android:text="
+            分析完辩题之后，我们就要进行立论了。问题是如何才能立得稳和准，不至于刚立好就被对方challenge倒了？
+       "
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

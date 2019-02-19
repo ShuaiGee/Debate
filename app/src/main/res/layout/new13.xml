@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:text="第二十届“外研社杯”华东地区赛期间食宿指南"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:text="      乘车路线
+    	合肥火车站出发
+    ①在“合肥火车站”乘坐149路公交车至“芙蓉西区站”下，步行至安徽大学（磬苑校区），共用时约1小时40分钟。
+    ②乘坐出租车用时约45分钟，参考价格￥50。
+
+"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="      	合肥南站出发
+    ①在“合肥南站北广场”乘坐57路公交车至“芙蓉西区站”，用时约1小时20分钟。
+    ②乘坐出租车用时约30分钟，参考价格￥30。
+
+"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="      	合肥新桥国际机场出发
+    ①在“新桥机场站”乘坐机场巴士5号线至“高速开元酒店站”，步行至“轴承厂站”换乘53路或12路公交车至“省立医院南区站”下车，换乘149路公交车至“芙蓉西区站”下。
+    ②乘坐出租车用时约50分钟，参考价格￥90。
+"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="      住宿指南
+
+    1. 罄苑宾馆：九龙路与环翠路交口。
+    预订电话：0551-63861888
+    2. 格林豪泰快捷酒店：繁华大道与九龙路交口。
+    预订电话：0551-63361998
+
+    3. 合财尊荣轩酒店：汤口路中段（合肥财经学院校内）。
+    预订电话：0551-63863111
+    参赛队也可在携程、去哪儿等商旅平台查询安徽大学（磬苑校区）周边宾馆位置及实时定价。
+
+    餐饮指南
+
+    安徽大学磬苑校区内有各大食堂可供参赛人员就近用餐。
+
+"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
